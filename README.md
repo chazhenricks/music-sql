@@ -2,11 +2,6 @@
 
 ## Setup
 
-mkdir -p ~/workspace/csharp/exercises/music-sql && cd $_
-touch queries.sql
-Note: The .sql extension is common practice for files storing SQL queries
-Installation of SQLite (if needed)
-
 To get started, type the following command to check if you already have SQLite installed.
 
 `$ sqlite3`
