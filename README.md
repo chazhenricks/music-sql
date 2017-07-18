@@ -9,7 +9,7 @@ Installation of SQLite (if needed)
 
 To get started, type the following command to check if you already have SQLite installed.
 
-$ sqlite3
+`$ sqlite3`
 And you should see:
 ```
 SQLite version 3.7.15.2 2014-08-15 11:53:05
@@ -45,14 +45,14 @@ SELECT a.Title, s.Title FROM Album a LEFT JOIN Song s ON s.AlbumId = a.AlbumId;
 SELECT a.Title, s.Title FROM Song s LEFT JOIN Album a ON s.AlbumId = a.AlbumId;
 ```
 
-1. Write a SELECT statement to display how many songs exist for each album. You'll need to use the COUNT() function and the GROUP BY keyword sequence.
+6. Write a SELECT statement to display how many songs exist for each album. You'll need to use the COUNT() function and the GROUP BY keyword sequence.
 
-1. Write a SELECT statement to display how many songs exist for each artist. You'll need to use the COUNT() function and the GROUP BY keyword sequence.
+7. Write a SELECT statement to display how many songs exist for each artist. You'll need to use the COUNT() function and the GROUP BY keyword sequence.
 
-1. Write a SELECT statement to display how many songs exist for each genre. You'll need to use the COUNT() function and the GROUP BY keyword sequence.
+8. Write a SELECT statement to display how many songs exist for each genre. You'll need to use the COUNT() function and the GROUP BY keyword sequence.
 
-1. Using MAX() function, write a select statement to find the album with the longest duration. The result should display the album title and the duration.
+9. Using MAX() function, write a select statement to find the album with the longest duration. The result should display the album title and the duration.
 
-1. Using MAX() function, write a select statement to find the song with the longest duration. The result should display the song title and the duration.
+10. Using MAX() function, write a select statement to find the song with the longest duration. The result should display the song title and the duration.
 
-1. Modify the previous query to also display the title of the album.
+11. Modify the previous query to also display the title of the album.
